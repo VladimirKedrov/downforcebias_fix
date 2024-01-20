@@ -7,6 +7,7 @@ Maintains the kerboosting fixes from the flag, stopping the vehicle from rapidly
 Counteracts the suspension height increase from CF_USE_DOWNFORCE_BIAS.
 
 
+
 CF_USE_DOWNFORCE_BIAS flag is also known as:
 Openwheeler flag,
 Kerbfix Flag,
@@ -14,14 +15,17 @@ UseDownforceBias,
 Advancedflag: 8000000
 
 
+
 Requirements:
 
 baseevents resource to be started. Included with CFX default resources.
 
 
+
 Incompatabilities:
 
 Any script that uses the "SetVehicleSuspensionHeight" native.
+
 
 
 How to use:
