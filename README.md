@@ -1,4 +1,4 @@
-## DownforceBias Fix for GTA5: Fixes 
+## DownforceBias Fix for GTA5: Fixes Kerb Boosting.
 
 ### Features:
 
