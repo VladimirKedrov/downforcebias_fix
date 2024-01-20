@@ -1,6 +1,7 @@
 # downforcebias_fix for GTA5
 
 Features:
+
 Fixes the suspension raise from CF_USE_DOWNFORCE_BIAS advanced flag.
 Maintains the kerboosting fixes from the flag, stopping the vehicle from rapidly speeding due to bumpy terrain.
 Counteracts the suspension height increase from CF_USE_DOWNFORCE_BIAS.
@@ -14,14 +15,17 @@ Advancedflag: 8000000
 
 
 Requirements:
+
 baseevents resource to be started. Included with CFX default resources.
 
 
 Incompatabilities:
+
 Any script that uses the "SetVehicleSuspensionHeight" native.
 
 
 How to use:
+
 Enable the CF_USE_DOWNFORCE_BIAS flag by setting strAdvancedFlags to 08000000 in handling.meta.
 
 strAdvancedFlags is under the section "<SubHandlingData>" if you don't have that line in your handling.meta you can add it by copying the template below.
