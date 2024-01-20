@@ -45,7 +45,7 @@ After flag is enabled the script will activate after you enter a vehicle.
 
 ### Notes
 
-The code is commented and not very complicated should be easy to figure out how it works. If you are having issues contact me at this post or make a github issue.
+The code is commented and not very complicated should be easy to figure out how it works. If you are having issues please make a issue with repro.
 
 Licensed GNU GPL v3.0
 
