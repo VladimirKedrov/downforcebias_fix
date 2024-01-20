@@ -21,6 +21,9 @@ baseevents resource to be started, included with CFX default resources.
 
 Any script that uses the "SetVehicleSuspensionHeight" native.
 
+### Config:
+Available in the config.lua is debugging options if you want to see what it is doing in realtime.
+
 ### How to use:
 
 Enable the CF_USE_DOWNFORCE_BIAS flag by setting strAdvancedFlags to 08000000 in handling.meta.
