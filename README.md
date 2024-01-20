@@ -1,12 +1,6 @@
-## DownforceBias Fix for GTA5: Fixes Kerb Boosting.
-
-### Features:
-
-Fixes the suspension raise from CF_USE_DOWNFORCE_BIAS advanced flag.
-
-Maintains the kerboosting fixes from the flag, stopping the vehicle from rapidly speeding due to bumpy terrain.
-
-Counteracts the suspension height increase from CF_USE_DOWNFORCE_BIAS.
+## What the script does
+Fixes the suspension issue while using the CF_USE_DOWNFORCE_BIAS advanced handling flag.
+This is so the vehicle can benefit from the flags kerb boosting fixes inherent to the flag, without suffering from the suspension height increasing when driving at high speed.
 
 CF_USE_DOWNFORCE_BIAS flag is also known as:
 
@@ -14,6 +8,10 @@ CF_USE_DOWNFORCE_BIAS flag is also known as:
 * Kerbfix Flag
 * UseDownforceBias
 * Advancedflag: 8000000
+
+## How the script works
+It gathers the vehicle relative coordinates of the suspension bounds when first entering the vehicle. Then compares them to the current raised suspension bounds while creating a offset to apply to the suspension.
+This height offset is applied to the suspension compensate for the raise from CF_USE_DOWNFORCE_BIAS leaving the car level as it was when it was stopped.
 
 ### Requirements:
 
@@ -47,8 +45,11 @@ After flag is enabled the script will activate after you enter a vehicle.
 
 ### Notes
 
-The code is commented should be easy to figure out how it works.
+The code is commented and not very complicated should be easy to figure out how it works. If you are having issues contact me at this post or make a github issue.
+
+Licensed GNU GPL v3.0
 
 If this was useful for you and you wish to donate.
 
 https://ko-fi.com/vladimirkedrov
+
