@@ -69,7 +69,7 @@ AddEventHandler('downforcefix:enabled', function()
 			end
 			-- Baseline suspension height detrmined from combining the suspension offset from the handling.meta and carcols upgrade
 			-- Handling.meta is inverted as handling.meta is backwards to what the set native expects.
-			local stationary_sus_offset = -handling_meta_sus_raise + sus_mod_value
+			local stationary_sus_offset = -handling_meta_sus_raise + sus_mod_distance
 			-- Takes the baseline suspension height and adds a counteracting descrease determined by the suspension raise increase due to downforcebias flag.
 			-- Positive values reduce the suspension height
 			local required_suspension_height_offset = stationary_sus_offset + sus_dif
