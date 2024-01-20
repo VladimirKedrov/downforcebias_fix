@@ -43,6 +43,7 @@ https://adam10603.github.io/GTA5VehicleFlagTool/
 
 Make sure to use the correct flag category in the flag tool.
 
+After flag is enabled the script will activate after you enter a vehicle.
 
 ### Notes
 
