@@ -44,7 +44,7 @@ https://adam10603.github.io/GTA5VehicleFlagTool/
 Make sure to use the correct flag category in the flag tool.
 
 
-### Comments
+### Notes
 
 The code is commented should be easy to figure out how it works.
 
