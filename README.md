@@ -1,38 +1,33 @@
-# downforcebias_fix for GTA5
+## DownforceBias Fix for GTA5: Fixes 
 
-Features:
+### Features:
 
 Fixes the suspension raise from CF_USE_DOWNFORCE_BIAS advanced flag.
+
 Maintains the kerboosting fixes from the flag, stopping the vehicle from rapidly speeding due to bumpy terrain.
+
 Counteracts the suspension height increase from CF_USE_DOWNFORCE_BIAS.
 
-
-
 CF_USE_DOWNFORCE_BIAS flag is also known as:
-Openwheeler flag,
-Kerbfix Flag,
-UseDownforceBias,
-Advancedflag: 8000000
 
+* Openwheeler flag
+* Kerbfix Flag
+* UseDownforceBias
+* Advancedflag: 8000000
 
+### Requirements:
 
-Requirements:
+baseevents resource to be started, included with CFX default resources.
 
-baseevents resource to be started. Included with CFX default resources.
-
-
-
-Incompatabilities:
+### Incompatabilities:
 
 Any script that uses the "SetVehicleSuspensionHeight" native.
 
-
-
-How to use:
+### How to use:
 
 Enable the CF_USE_DOWNFORCE_BIAS flag by setting strAdvancedFlags to 08000000 in handling.meta.
 
-strAdvancedFlags is under the section "<SubHandlingData>" if you don't have that line in your handling.meta you can add it by copying the template below.
+strAdvancedFlags is under the section SubHandlingData if you don't have that line in your handling.meta you can add it by copying the template below.
 
 Make sure that you leave any other lines in the "CCarHandlingData" section alone if you don't know what they do.
 
@@ -49,8 +44,9 @@ https://adam10603.github.io/GTA5VehicleFlagTool/
 Make sure to use the correct flag category in the flag tool.
 
 
+### Comments
 
-File is commented should be easy to figure out how it works.
+The code is commented should be easy to figure out how it works.
 
 If this was useful for you and you wish to donate.
 
