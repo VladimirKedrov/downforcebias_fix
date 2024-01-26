@@ -1,4 +1,4 @@
--- Copyright (C) 2024 VladimirKedrov Subject to 
+-- Copyright (C) 2024 VladimirKedrov
 -- This file is part of downforcebias_fix.
 --
 -- downforcebias_fix is free software: you can redistribute it and/or modify
