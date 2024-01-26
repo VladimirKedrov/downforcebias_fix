@@ -10,8 +10,8 @@ CF_USE_DOWNFORCE_BIAS flag is also known as:
 * Advancedflag: 8000000
 
 ## How the script works
-It gathers the vehicle relative coordinates of the suspension bounds when first entering the vehicle. Then compares them to the current raised suspension bounds while creating a offset to apply to the suspension.
-This height offset is applied to the suspension compensate for the raise from CF_USE_DOWNFORCE_BIAS leaving the car level as it was when it was stopped.
+It gathers the vehicle relative coordinates of the suspension bounds when first entering the vehicle. Then compares the difference between the current suspension bounds and the original bounds.
+This difference is then applied to the current suspension fSuspensionRaise to compensate from the differece created from CF_USE_DOWNFORCE_BIAS. This ensures the car stays level as it reaches top speed.
 
 ### Requirements:
 
@@ -19,7 +19,7 @@ baseevents resource to be started, included with CFX default resources.
 
 ### Incompatabilities:
 
-Any script that uses the "SetVehicleSuspensionHeight" native.
+Any script that targets the fSuspensionRaise section through the SetVehicleHandling natives.
 
 ### Config:
 Available in the config.lua is debugging options if you want to see what it is doing in realtime.
